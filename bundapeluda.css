@@ -1,0 +1,153 @@
+body{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: rgb(184, 179, 179);
+
+
+}
+
+
+
+#principal{
+    width: 900px; 
+    margin: 0 auto; 
+    
+
+
+
+}
+
+
+#menus{
+    list-style: none;
+    padding: 0;
+    background-color: rgb(228, 18, 18);
+    width: 900PX;
+    
+}
+#menus  li {
+    margin:20px ;
+    display: inline;
+ } 
+
+ #menus  li a{
+    display: inline-block;
+    text-decoration: none;
+    color: aliceblue;
+    padding: 20px;
+    transition: Background .6s;
+    
+ }
+
+ #menus  li a:hover{
+    background-color: rgb(32, 32, 161);
+
+ }
+ #fotinha{
+width:900px ;
+
+ }
+ #textinhe{
+    background-color: rgb(251, 255, 249);
+    margin-top: 20px;
+    border-radius:10px ;
+    padding: 5px;
+    box-shadow: 0px 4px 6px rgb(0, 0, 0);
+    display: inline-block;
+ }
+ h1{
+    color: rgb(0, 0, 0);
+    text-align: center;
+
+
+ }
+ h4{
+    font-family: Arial, Helvetica, sans-serif;
+    
+
+
+ }
+#footer{
+
+background-color: rgb(255, 0, 0);
+padding: 20px;
+text-align: center;
+margin-top:20px ;
+color: aliceblue;
+
+
+
+}
+
+
+h2 {
+    text-align: center;
+}
+#medalhas{
+width: 900px;
+text-align: center;
+
+}
+.container {
+    
+    margin: auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 900px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+label {
+    margin-top: 10px;
+    font-weight: bold;
+    display: block;
+}
+
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 15px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #5cb85c;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+
+input[type="submit"]:hover {
+    background-color: #4cae4c;
+}
+@media only screen and (max-width: 1024px) { /* iPad Pro */
+    .container {
+        padding: 15px;
+    }
+}
+
+ @media (max-width: 768px) {
+.container {
+ padding: 10px; /* Adiciona espaçamento */
+ }
+        
+ h1 {
+font-size: 24px; /* Ajusta o tamanho da fonte */
+ }
+        
+    /* Outros estilos para telas menores */
+}
+        
